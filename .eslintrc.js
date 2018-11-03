@@ -4,6 +4,11 @@ module.exports = {
         "es6": true
     },
     "extends": "airbnb",
+	"plugins": [
+			"react",
+			"jsx-a11y",
+			"import"
+		],
     "parserOptions": {
         "ecmaFeatures": {
             "jsx": true
@@ -12,9 +17,7 @@ module.exports = {
         "sourceType": "module"
     },
     "rules": {
-        "indent": [
-            "error",2
-        ],
+        "indent": ["error",2],
         "linebreak-style": [
             "error",
             "windows"
